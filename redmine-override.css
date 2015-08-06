@@ -1,0 +1,256 @@
+#wrapper {
+    font-family: Input Sans, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5 {
+   font-family: Input Sans, Helvetica Neue, Helvetica, sans-serif;
+  background-color: inherit;
+}
+
+#main-menu .wiki {
+  line-height: inherit;
+      font-size: inherit;
+    }
+    
+table.list tbody td, table.list tbody tr td, table.list tbody tr td.checkbox {
+      font-size: 11px;
+      vertical-align: middle;
+      text-align: center;
+      padding: 5px;
+    }
+    
+table.list tbody td.subject {
+      font-size: 13px;
+      padding-left: 10px;
+      text-align: left;
+    }    
+
+/*Merge Request*/
+table.list tbody tr.status-7 td.status {
+    background-color: #E8E180;
+}
+/*Feedback*/
+table.list tbody tr.status-4 td.status {
+    background-color: #EDBCFF;
+}
+/*In Progress*/
+table.list tbody tr.status-2 td.status {
+    background-color: #B5FFCE;
+}
+
+/*Not Started*/
+table.list tbody tr.status-1 td.status {
+    background-color: #DCDCDC;
+}
+
+table.list tbody tr:hover {
+  background-color: #4a6da7;
+  color: #fff;
+}
+
+table.list tbody tr:hover a,
+table.list tbody tr:hover a:hover {
+  color: #fff;
+}
+
+/*Defect PRD*/
+tr.tracker-1 .tracker {
+  background-color: #EDCCC2;
+}
+
+/*Task*/
+tr.tracker-2 .tracker {
+  background-color: #DCDCDC;
+}
+
+/*Feature*/
+tr.tracker-20 .tracker {
+  background-color: #8c8c8c;
+  color: #fff;
+}
+
+tr.tracker-20 a {
+  color: #fff;
+}
+
+tr.tracker-20:hover,
+tr.tracker-20:hover a,
+tr.tracker-20 a:hover {
+  color: #000;
+}
+
+/*Feature Phase*/
+tr.tracker-21 .tracker {
+  background-color: #E3E3E3;
+}
+
+/*Test*/
+tr.tracker-4 .tracker {
+  background-color: #8FBCFF;
+}
+
+/*Defect Test*/
+tr.tracker-5 .tracker {
+  background-color: #EDECC2;
+}
+
+/*Story*/
+tr.tracker-6 .tracker {
+  background-color: #08644B;
+  color: #FFF;
+}
+
+div.issue {
+  background-color: #f7f7f7;
+}
+
+div.subject h3 {
+  font-size: 180%;
+}
+  
+div.issue div.subject p {
+  font-size: 120%;
+}
+
+table.progress td.closed {
+background: #3FA53F none repeat scroll 0%;
+}
+  
+.wiki {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  font-family: Input Sans, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #666666;
+  line-height: 1.6;
+  max-width: 750px;
+  font-size: 15px;
+}
+
+.journal .wiki {
+  background-color: #fff;
+  padding: 20px 0;
+      
+}
+
+#content .wiki {
+    text-align: left;
+    }
+
+.issue-box .wiki {
+  background-color: #fff;     
+}
+
+.wiki p {
+  font-size: 15px;
+  color: #333333;
+}
+
+.wiki h1, .wiki h2, .wiki h3, .wiki h4, .wiki h5 {
+  color: #111111;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.wiki h1 {
+  font-size: 230%;
+  font-variant: small-caps;
+}
+
+.wiki h2 {
+  font-size: 130%;
+}
+
+.wiki h3 {
+  font-size: 100%;
+}
+
+.wiki h4 {
+  font-size: 90%;
+}
+
+.wiki h5 {
+  font-size: 80%;
+}
+
+.wiki h6 {
+  font-size: 80%;
+}
+
+.wiki a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.wiki a:hover {
+  text-decoration: blink;
+  color: green;
+}
+
+.wiki ul, .wiki ol {
+  padding: 0;
+  margin: 0px 0px 0px 50px;
+}
+
+.wiki ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.wiki li {
+  line-height: 150%;
+}
+
+.wiki li ul, .wiki li ul {
+  margin-left: 24px;
+}
+
+.wiki pre {
+  padding: 0px 24px;
+  max-width: 800px;
+  white-space: pre-wrap;
+}
+
+.wiki code {
+  font-family: Input Mono, Consolas, Monaco, Andale Mono, monospace;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.wiki aside {
+  display: block;
+  float: right;
+  width: 390px;
+}
+
+.wiki blockquote {
+  border-left: .5em solid #eee;
+  padding: 0 1em;
+  margin-left: 0;
+  max-width: 476px;
+}
+
+.wiki blockquote cite {
+  font-size: 14px;
+  line-height: 20px;
+  color: #bfbfbf;
+}
+
+.wiki blockquote cite:before {
+  content: '\2014 \00A0';
+}
+
+.wiki blockquote p {
+  color: #666;
+  max-width: 460px;
+}
+
+.wiki hr {
+  width: 540px;
+  text-align: left;
+  margin: 0 auto 0 0;
+  color: #999;
+}
