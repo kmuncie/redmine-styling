@@ -70,16 +70,6 @@ tr.tracker-20 .tracker {
   color: #fff;
 }
 
-tr.tracker-20 a {
-  color: #fff;
-}
-
-tr.tracker-20:hover,
-tr.tracker-20:hover a,
-tr.tracker-20 a:hover {
-  color: #000;
-}
-
 /*Feature Phase*/
 tr.tracker-21 .tracker {
   background-color: #E3E3E3;
